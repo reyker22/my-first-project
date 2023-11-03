@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Raleway:wght@600;700&family=Roboto+Condensed:wght@300;400;700&display=swap">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/adaptive.css">
+  <title>Sakusei - музыкальный магазин</title>
+</head>
+<body>
+  <header id="home" class="header" style="background-image: url('img/1.jpg')" >
+    <div class="header__top">
+      <div class="container">
+        <nav class="header__inner">
+          <a href="#home" class="header__logo logo"><img src="svg/logo.svg" alt="Logo"></a>
+          <div class="menu">
+            <button class="menu__btn" type="button">
+              <span class="sr-only">Открыть меню</span>
+            </button>
+
+            <ul class="menu__list">
+              <li class="menu__item"><a href="#home" class="menu__link animation">Главная</a></li>
+              <li class="menu__item"><a href="#about" class="menu__link animation">О нас</a></li>
+              <li class="menu__item"><a href="#product" class="menu__link animation">Товар</a></li>
+              <li class="menu__item"><a href="#price" class="menu__link animation">Стоимость</a></li>
+              <li class="menu__item"><a href="#feedback" class="menu__link animation">Контакты</a></li>
+            </ul>
+
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="header_container">
+      <div class="header__content">
+        <h1>SAKUSEI</h1>
+        <h2>Музыкальный магазин</h2>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="motivate element-animation" id="about">
+      <div class="motivate__bg padding-content "></div>
+      <div class="container">
+        <div class="motivate__inner">
+          <h2 class="motivate__title title">О магазине</h2>
+          <div class="motivate__text">
+            <p>
+              Музыка это не просто звук, это возможность выразить себя, свои эмоции, переживания. Это то, что вдохновляет
+              и помогает.
+              Когда вы слышите музыку, у вас в душе происходит что-то особенное.
+              Вы можете переживать, думать, чувствовать. Она связывает с нашими эмоциями.
+            </p>
+            <p>
+              Наш магазин это мир вдали от шума и суеты электрического города. Музыкальное пространство для любителей
+            аутентичной музыки.
+            Это идеальный магазин для тех, кто хочет тщательно выбирает свои инструменты на просторном этаже.
+            </p>
+            <p>
+              У нас представлен широкий ассортимент товаров для начинающих и профессиональных музыкантов, звукорежиссеров
+              и продюсеров, владельцев бизнесов.
+              Наша компания - официальный дилер 600 мировых брендов Yamaha, Fender, Ibanez, Gibson, Marshall,
+              Casio, AKG, Shure, Korg, Numark, Pioneer, Tamа, Zildjian, Mackie, JBL и других.
+            </p>
+            <p>
+              Мы хотим, чтобы каждый клиент остался доволен не только покупкой, но и обслуживанием.
+            В нашем магазине вы можете получить консультацию по подбору звукового оборудования, помощь в выборе
+            акустических систем и сабвуферов.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="gallery padding-content element-animation" id="product">
+      <div class="container">
+        <h2 class="gallery__title title margin-title ">Товар</h2>
+        <ul class="gallery__list">
+          <li class="gallery__filter">
+            <button class="gallery__btn  animation " data-f="category-all" type="button">Все</button>
+          </li>
+          <li class="gallery__filter">
+            <button class="gallery__btn animation" data-f="category-a" type="button">Гитары</button>
+          </li>
+          <li class="gallery__filter">
+            <button class="gallery__btn animation " data-f="category-b" type="button">Вокал</button>
+          </li>
+          <li class="gallery__filter">
+            <button class="gallery__btn animation " data-f="category-c" type="button">Ударные</button>
+          </li>
+          <li class="gallery__filter">
+            <button class="gallery__btn animation " data-f="category-d" type="button">Студийное оборудование</button>
+          </li>
+        </ul>
+        <ul class="gallery__content">
+          <li class="gallery__item category-b">
+            <div class="product">
+              <div class="product__content">
+                <img class="product_img" src="img/micro.jpg" alt="">
+                <h3>Микрофоны</h3>
+                <p>1000 товаров</p>
+              </div>
+            </div>
+          </li>
+          <li class="gallery__item  category-d">
+            <div class="product">
+              <div class="product__content1">
+                <img src="img/mixer.jpg" alt="">
+                <h3>Микрофонные процессоры, микшеры, усилители</h3>
+                <p>1000 товаров</p>
+              </div>
+            </div>
+          </li>
+          <li class="gallery__item category-a">
+            <div class="product">
+              <div class="product__content2">
+                <img src="img/bass.jpg" alt="">
+                <h3>Бас-гитары</h3>
+                <p>1000 товаров</p>
+              </div>
+            </div>
+          </li>
+          <li class="gallery__item category-a">
+            <div class="product">
+              <div class="product__content2">
+                <img src="img/electro.jpg" alt="">
+                <h3>Электрогитары</h3>
+                <p>1000 товаров</p>
+              </div>
+            </div>
+          </li>
+          <li class="gallery__item category-c">
+            <div class="product">
+              <div class="product__content3">
+                <img src="img/sticks.jpg" alt="">
+                <h3>Барабанные палочки, щетки, руты</h3>
+                <p>1000 товаров</p>
+              </div>
+            </div>
+          </li>
+          <li class="gallery__item category-c">
+            <div class="product">
+              <div class="product__content4">
+                <img src="img/drums.jpg" alt="">
+                <h3>Акустические ударные</h3>
+                <p>1000 товаров</p>
+              </div>
+            </div>
+          </li>
+          <li class="gallery__item category-c">
+            <div class="product">
+              <div class="product__content5">
+                <img src="img/percussion.jpg" alt="">
+                <h3>Перкуссия</h3>
+                <p>1000 товаров</p>
+              </div>
+            </div>
+          </li>
+          <li class="gallery__item category-d">
+            <div class="product">
+              <div class="product__content6">
+                <img src="img/monitors.jpg" alt="">
+                <h3>Студийные мониторы</h3>
+                <p>1000 товаров</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <div class="gallery__add">
+          <button class="button animation animation--btn" type="button">Показать еще</button>
+        </div>
+      </div>
+    </section>
+    <section class="blog element-animation" id="blog">
+      <h2 class="blog__title title">Фотографии в нашем магазине</h2>
+      <section class="slider">
+        <div class="container">
+          <button class="carousel-button next" onclick="onNext()">&#10095;</button>
+          <button class="carousel-button prev" onclick="onPrev()">&#10094;</button>
+          <ul class="slides">
+            <li class="slide" data-active><img src="img/slider/1.jpg" alt=""></li>
+            <li class="slide"><img src="img/slider/3.jpg" alt=""></li>
+            <li class="slide"><img src="img/slider/4.jpg" alt=""></li>
+            <li class="slide"><img src="img/slider/5.jpg" alt=""></li>
+          </ul>
+        </div>
+      </section>
+    </section>
+    <section class="price  padding-content element-animation" id="price">
+      <div class="container">
+        <h2 class="price__title title margin-title">Стоимость</h2>
+        <ul class="price__list">
+          <li class="price__service">
+            <h3 class="price__subtitle">Музыкальные инструменты</h3>
+            <img class="price_img" src="img/instruments.jpg" alt="">
+            <ul class="price__items">
+              <li>Наши инструменты:</li>
+              <li>- качественные</li>
+              <li>- новые</li>
+              <li>- по ценам ниже рыночных</li>
+              <li>- быстрый и качественный ремонт</li>
+            </ul>
+          </li>
+          <li class="price__service">
+            <h3 class="price__subtitle">Микрофоны акссесуары</h3>
+            <img class="price_img" src="img/microphones.jpg" alt="">
+            <ul class="price__items">
+              <li>У наших микрофонов:</li>
+              <li>- качественный звук</li>
+              <li>- удобство при эксплуатации</li>
+              <li>- небольшой вес</li>
+              <li>- компактные размеры</li>
+            </ul>
+          </li>
+          <li class="price__service">
+            <h3 class="price__subtitle">Студийное оборудование</h3>
+            <img class="price_img" src="img/equipment.jpg" alt="">
+            <ul class="price__items">
+              <li>У студийного оборудования:</li>
+              <li>- широкий ассортимент</li>
+              <li>- доступные цены</li>
+              <li>- наличие товара на складе</li>
+              <li>- доставка в любой город России</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="modal" >
+      <div class="modal__content">
+        <p>
+          Заявка отправлена
+        </p>
+        <button class="modal__button button-close" type="button">Закрыть</button>
+      </div>
+    </section>
+    <section class="feedback element-animation padding-content " id="feedback">
+      <div class="container">
+        <h2 class="feedback__title title">Оставить заявку</h2>
+        <div class="feedback__inner margin-title">
+          <form class="feedback__form form">
+            <label class="form__item">
+              <input class="form__field" type="text" name="fname" placeholder="ФИО" id="name" pattern="^[А-Яа-яЁё\s]+$"
+                required>
+              <span class="sr-only">Введите ФИО</span>
+            </label>
+            <label class="form__item">
+              <input class="form__field" name="number" required="required" type="tel" pattern="\+?[0-9\s\-\(\)]+"
+                placeholder="Телефон">
+              <span class="sr-only">Введите телефон</span>
+            </label>
+            <label class="form__item">
+              <textarea class="form__field" name="message"
+                placeholder="Оставьте сообщение, и мы свяжемся с Вами в ближайшее время" required
+                style="resize: none;"></textarea>
+              <span class="sr-only">Оставьте сообщение и мы свяжемся с Вами</span>
+            </label>
+            <button class="button animation animation--btn button-open" type="submit" disabled>Отправить</button>
+          </form>
+          <address class="feedback__contact">
+            <div class="feedback__item">
+              <p>Есть вопрос?</p>
+              <p>Вы можете связаться с нами:</p>
+            </div>
+            <div class="feedback__item">
+              <p>
+                WhatsApp, Viber, Telegram
+              </p>
+              <a href="tel:+79699999999">
+                +81 80-3333-3333
+              </a>
+            </div>
+            <div class="feedback__item">
+              <p>
+                1 Chiyoda, Chiyoda City, Tokyo 100-0001, Japan
+              </p>
+            </div>
+          </address>
+        </div>
+      </div>
+    </section>
+    <section class="element-animation">
+      <h2 class="feedback__title title">Местоположение</h2>
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d103724.69573251168!2d139.68173683923803!3d35.667231869757856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b857628235d%3A0xcdd8aef709a2b520!2z0KLQvtC60LjQviwg0K_Qv9C-0L3QuNGP!5e0!3m2!1sru!2sru!4v1674717820815!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <a class="logo" href="#home">
+      <img src="svg/logo.svg" alt="Logo">
+    </a>
+  </footer>
+  <script src="js/slider.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/filter.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/animation.js"></script>
+</body>
+</html>
